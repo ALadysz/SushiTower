@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7049614489892001903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2110960564512748780}
+  - component: {fileID: 7408549173822316371}
+  - component: {fileID: 7007769454386910071}
+  - component: {fileID: 3504094901319332927}
+  m_Layer: 0
+  m_Name: Piece
+  m_TagString: Piece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2110960564512748780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049614489892001903}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.0056076, y: 2.15304, z: 2.2347956}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7408549173822316371
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049614489892001903}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7007769454386910071
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049614489892001903}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3504094901319332927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7049614489892001903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5481d04d8da3de4b831f265493a93ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 3
+  height: 1
+  depth: 1
+  RollOne:
+  - {fileID: 2800000, guid: ee396fea8deb85b4d92ca573447cb6d7, type: 3}
+  - {fileID: 2800000, guid: ee396fea8deb85b4d92ca573447cb6d7, type: 3}
+  - {fileID: 2800000, guid: 6db8ee86cbd776d4ab07a73e7fa05cd5, type: 3}
+  - {fileID: 2800000, guid: a13365cdbef66e840aa7a78bffb4dd04, type: 3}
+  - {fileID: 2800000, guid: 277479e7b5c655e4ba9d911248c57862, type: 3}
+  - {fileID: 2800000, guid: 277479e7b5c655e4ba9d911248c57862, type: 3}
+  RollTwo:
+  - {fileID: 2800000, guid: c8baca67d8609984eba3d10d00aaf98c, type: 3}
+  - {fileID: 2800000, guid: c8baca67d8609984eba3d10d00aaf98c, type: 3}
+  - {fileID: 2800000, guid: c8baca67d8609984eba3d10d00aaf98c, type: 3}
+  - {fileID: 2800000, guid: c8baca67d8609984eba3d10d00aaf98c, type: 3}
+  - {fileID: 2800000, guid: fc0938ab27e125946bb220ede7460045, type: 3}
+  - {fileID: 2800000, guid: fc0938ab27e125946bb220ede7460045, type: 3}
+  RollThree:
+  - {fileID: 2800000, guid: 0b0a2ba23790f774b8d28fe0cc664aa7, type: 3}
+  - {fileID: 2800000, guid: 0b0a2ba23790f774b8d28fe0cc664aa7, type: 3}
+  - {fileID: 2800000, guid: 479f8525b08fb854a8583ae62e18905b, type: 3}
+  - {fileID: 2800000, guid: cf8962044add54a4082b2d86f761012f, type: 3}
+  - {fileID: 2800000, guid: b0c83172c9ac3e54c92b361672ba41ea, type: 3}
+  - {fileID: 2800000, guid: b0c83172c9ac3e54c92b361672ba41ea, type: 3}
+  RollFour:
+  - {fileID: 2800000, guid: 40fa3e96d15f74d428c9e5b4995b1f60, type: 3}
+  - {fileID: 2800000, guid: 40fa3e96d15f74d428c9e5b4995b1f60, type: 3}
+  - {fileID: 2800000, guid: 40fa3e96d15f74d428c9e5b4995b1f60, type: 3}
+  - {fileID: 2800000, guid: 40fa3e96d15f74d428c9e5b4995b1f60, type: 3}
+  - {fileID: 2800000, guid: ca09ef6d27b6183409290123e844618c, type: 3}
+  - {fileID: 2800000, guid: ca09ef6d27b6183409290123e844618c, type: 3}
+  RollFive:
+  - {fileID: 2800000, guid: 2aec1110ec0bb86468aa34f32c6943a1, type: 3}
+  - {fileID: 2800000, guid: 2aec1110ec0bb86468aa34f32c6943a1, type: 3}
+  - {fileID: 2800000, guid: 2aec1110ec0bb86468aa34f32c6943a1, type: 3}
+  - {fileID: 2800000, guid: 2aec1110ec0bb86468aa34f32c6943a1, type: 3}
+  - {fileID: 2800000, guid: 8c5934ac8e6cbd1468d71b0fd176f56d, type: 3}
+  - {fileID: 2800000, guid: 8c5934ac8e6cbd1468d71b0fd176f56d, type: 3}
+  RollSix:
+  - {fileID: 2800000, guid: f5c53c12d1a0cae4397fcd523b06dec5, type: 3}
+  - {fileID: 2800000, guid: f5c53c12d1a0cae4397fcd523b06dec5, type: 3}
+  - {fileID: 2800000, guid: f5c53c12d1a0cae4397fcd523b06dec5, type: 3}
+  - {fileID: 2800000, guid: f5c53c12d1a0cae4397fcd523b06dec5, type: 3}
+  - {fileID: 2800000, guid: 435401c913bf15249895895b9dc78475, type: 3}
+  - {fileID: 2800000, guid: 435401c913bf15249895895b9dc78475, type: 3}
+  RollSeven:
+  - {fileID: 2800000, guid: f5c53c12d1a0cae4397fcd523b06dec5, type: 3}
+  - {fileID: 2800000, guid: f5c53c12d1a0cae4397fcd523b06dec5, type: 3}
+  - {fileID: 2800000, guid: f5c53c12d1a0cae4397fcd523b06dec5, type: 3}
+  - {fileID: 2800000, guid: f5c53c12d1a0cae4397fcd523b06dec5, type: 3}
+  - {fileID: 2800000, guid: 7d27305e501c9d448853669fa2bb7169, type: 3}
+  - {fileID: 2800000, guid: 7d27305e501c9d448853669fa2bb7169, type: 3}
